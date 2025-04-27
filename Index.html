@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beach Party</title>
+        <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background: linear-gradient(to bottom, #87CEEB, #FFFACD);
+            text-align: center;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #FF7F50;
+            margin-bottom: 10px;
+        }
+        .details {
+            margin: 20px 0;
+            font-size: 1em;
+            color: #555;
+        }
+        .description {
+            margin: 20px 0;
+            font-size: 1em;
+            color: #555;
+        }
+        .rsvp-button {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 1em;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .rsvp-button:hover {
+            background-color: #ff5722;
+        }
+        .guest-list {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .guest-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .guest-list li::before {
+            content: "🌴";
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>You're Invited to the Beach Party Bash!</h1>
+            <div class="details">
+                📅 August 17, 2025<br>
+                🕒 3:00 PM - Sunset<br>
+                📍 Sunny Shores Beach
+            </div>
+            <div class="description">
+                Bring your swimsuits, sunglasses, and good vibes!<br>
+                Food, drinks, and music will be provided. Let's celebrate together!
+            </div>
+            <a href="mailto:beachparty@example.com" class="rsvp-button">Let's Go!</a>
+
+            <div class="guest-list">
+                <h3>Guests Attending:</h3>
+                <ul>
+                    <li>Alex</li>
+                    <li>Sam</li>
+                    <li>Jordan</li>
+                    <li>Taylor</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
